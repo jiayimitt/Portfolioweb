@@ -17,7 +17,7 @@ This is a personal introduction webpage that showcases my skills, experience, an
 
 ## How to Run
 
-1. **Clone the Repository**:
-   ```bash
-   git clone https://github.com/yourusername/MyWeb.git
-   cd MyWeb
+https://github.com/jiayimitt/Portfolioweb
+
+https://portfolweb.netlify.app/
+
