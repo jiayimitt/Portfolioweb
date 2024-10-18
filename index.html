@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="jiayi">
+        <title>MyWeb</title>
+        <link rel="stylesheet" href="./assets/css/style.css" media="all">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap" >
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="icon" href="./assets/img/letter-n.png" type="x-icon">
+        <script src ="assets/js/index.js" defer></script>
+        <script src="https://cdn.emailjs.com/dist/email.min.js"></script>        
+    </head>
+    <body>
+     <!--Header----------------------------------------------->
+        <header>
+                <div class="container flex space ">
+                  <a href="./index.html" class="logo">
+                    <div class="flex logo">
+                        <i class="fa-solid fa-house-user"></i>
+                      <p>MyWeb</p>
+                    </div>
+                  </a>
+                    <div class="info-tab flex">
+                      <a class="head-info" href="./index.html">Home</a>
+                      <a class="head-info" href="#about">About</a>
+                      <a class="head-info" href="#blog">Blog</a>
+                      <a class="head-info" href="#contact">Contact</a>
+                    </div>                                        
+                    <nav>
+                      <ul>
+                        <li>
+                          <a id="themeSwitcher"><i class="fa-solid fa-moon dark-mode-toggle"></i></a>
+                        </li>
+                       </ul>
+                    </nav>
+                  </div>
+        </header>
+
+        <!--Main----------------------------------------------->
+        <main>
+            <section>
+                <div class="hero hero-banner-1">
+                  <h1>Frontend Developer,Engineer and Photographer</h1>
+                  <p>I design and code beautifully simple things, and I love what I do.</p>
+                  <img class="photo-id" src="./assets/img/jiayi-id.jpg">                
+                </div>
+                <div class="hero hero-banner-2">
+                  <img class="interface" src="./assets/img/interface.png">
+                </div>
+              </section>
+              
+              <section>
+                <div class="hero hero-banner-3">
+                  <h2 id="about">Hi, I am Jiayi. Nice to meet you.</h2>
+                  <p>After working as an automotive R&D engineer for 15 years, I boldly decided to 
+                    switch careers and embark on a new path in software development. Every day is 
+                    filled with fresh knowledge, making life more exciting and enjoyable.I'm quietly 
+                    confident, naturally curious, and perpetually working on improving my chops.</p>
+                </div>
+            </section>
+              
+            <section>
+                <div class="hero hero-banner-4">
+                  <div class="box">
+                    <i class="fa-solid fa-code"></i>
+                    <h3>Frontend Developer</h3>
+                    <p>I value simple content structure, clean design patterns, and thoughtful interactions.</p>
+                    <p class="skill">skills & tools</p>
+                    <p>HTML</p>
+                    <p>CSS</p>
+                    <p>JavaScript</p>
+                    <p>VS Code</p>
+                    <p>Github</p>
+                    <p>Netlify</p>
+                  </div>
+                  <div class="box">
+                    <i class="fa-solid fa-car"></i>
+                    <h3>Engineer</h3>
+                    <p>I strive for a combination of excellent performance and stable quality, 
+                      with the ultimate goal of achieving customer satisfaction.</p>
+                    <p class="skill">skills & tools</p>
+                    <p>Matlab</p>
+                    <p>Inca</p>
+                    <p>CanOE</p>
+                    <p>Spy3</p>
+                    <p>Simulink</p>
+                    <p>ETAS</p>
+                  </div>
+                  <div class="box">
+                    <i class="fa-solid fa-camera-retro"></i>
+                    <h3>Photographer</h3>
+                    <p>Discover and capture all the beautiful things in life.</p>
+                    <p class="skill">skills & tools</p>
+                    <p>PhotoShop</p>
+                    <p>Cannon</p>
+                    <p>Nikon</p>
+                    <p>Sigma</p>
+                  </div>
+              </div>
+              <div class="mail-me">
+                <h2>My Recent Work</h2>
+                <p>Here are a few past design projects I've worked on. Want to see more?<a href="mailto:your.email@example.com?subject=Hello%20There&body=I%20wanted%20to%20reach%20out%20to%20you." class="mail-me"> Mail Me</a></p>               
+              </div>
+          </section>
+            
+          <section>
+              <div class="hero hero-banner-5" id="blog">                
+                <div class="card image-1">
+                  <div class="content">
+                    <h2>Client Detection!</h2> 
+                    <a href="https://clientdetection.netlify.app/" target="_blank">Go to Link</a>
+                  </div>                
+                </div>
+
+                <div class="card image-2">
+                  <div class="content">
+                    <h2>Travel Web!</h2> 
+                    <a href="https://stupendous-bonbon-36ccb1.netlify.app/aboutus" target="_blank">Go to Link</a>
+                  </div>   
+                </div>
+
+                <div class="card image-3">
+                  <div class="content">
+                    <h2>Temp converter!</h2> 
+                    <a href="https://duan-cree-jiyayi.netlify.app/" target="_blank">Go to Link</a>
+                  </div>   
+                </div>
+            </div>
+
+            <div class="linked-in">
+              <button class="button-text" id="linkedin-button">See me more on LinkedIn!</button>
+            </div>
+          </section>
+          
+          <section>
+            <div id="contact" class="hero-banner-contact">               
+                
+                <h2>Contact Jiayi</h2>              
+                <div class="container-content">
+                  <div class="container-form">
+                    <p>Dropping a line to say good day, ask for my resume or see if we can build something amazing together? I’d love to hear from you!</p>
+                    <p>Fill in your info in the form below and I look forward to hearing from you!</p>
+                    <form id="contact-form">
+                      <div class="field">
+                        <label for="name">Name<span class="required">*</span></label>
+                        <input type="text" name="name" id="name" required="required" placeholder="John Smith">
+                        
+                      </div>
+                      <div class="field">
+                        <label for="email">Email<span class="required">*</span></label>
+                        <input type="email" name="_replyto" id="email" required="required" placeholder="i_invented_the@internet.com">
+                        
+                      </div>
+                      <div class="field">
+                        <label for="message" class="message">Message<span class="required">*</span></label>
+                        <textarea type="textbox" name="message" id="message" required="required" placeholder="Dear Jiayi." spellcheck="false"></textarea>
+                        
+                      </div>
+                      <button class="btn" type="submit">
+                        <span>Send email</span>
+                        <i class="far fa-envelope-open" aria-hidden="true"></i>
+                      </button>
+                    </form>
+                  </div>
+              </div>                   
+            </div>
+          </section>
+        </main>
+
+        <!--Footer----------------------------------------------->
+            
+        <footer>
+          <div class="footer-section">
+            <h4>Follow Me</h4>
+              <a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer"><i class="fab fa-facebook"></i></a>
+              <a href="https://twitter.com/" target="_blank" rel="noopener noreferrer"><i class="fab fa-twitter"></i></a>
+              <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer"><i class="fab fa-instagram"></i></a>
+              <a href="https://www.youtube.com/" target="_blank" rel="noopener noreferrer"><i class="fab fa-youtube"></i></a>
+          </div>
+          <div class="footer-bottom">
+          <p>&copy; 2024  Designed & coded by Jiayi Nie</p>
+          </div>
+        </footer>
+    </body>
+</html>
