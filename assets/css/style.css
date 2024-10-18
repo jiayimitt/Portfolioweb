@@ -171,7 +171,7 @@ h1 {
 }
 /*Hero banner 3*/
 .hero-banner-3 {
-  height: 350px;
+ 
   background-color: #b4c6f0;
   display: grid;
   grid-template-rows: auto auto; 
@@ -183,7 +183,7 @@ h1 {
   p {
     width: 65%;
     margin-top: 30px;
-    margin-bottom: 150px;
+    padding-bottom: 150px;
   }
 }
 
@@ -196,8 +196,8 @@ h2 {
 .hero-banner-4 {
   display: flex; 
   justify-content: space-between; 
+  flex-wrap: wrap;
   width: 80%;
-  height: 500px;
   margin: 0 auto;
   background-color: var(--app-white1-background);
   margin-top: -100px; 
@@ -212,12 +212,13 @@ h2 {
 }
 
 .box {
-  width: 30%; 
+  flex:1 1 20%; 
   padding: 20px;
   background-color: #faf7f7; 
   color: rgb(6, 6, 6);
   text-align: center;
   border-radius: 5px;
+  margin: 10px;
   p {
     margin-top: 10px;
     font-size: 18px;
@@ -231,20 +232,22 @@ h2 {
 
 /*hero banner 5*/
 .hero-banner-5 {
-  margin: 0 100px;
+  margin: 0 20px;
   display: flex; 
   justify-content: space-between; 
+  flex-wrap: wrap;
   gap: 20px;
 }
 
 .card {
-  width: 30%;
-  height: 300px;
+  flex:1 1 25%;  
   background-color: #f2f2f2;
   padding: 20px;
   border-radius: 5px;
   text-align: center;
   border: 1px solid #ccc; 
+  margin: 10px;
+  min-height: 300px;
 }
 
 /*mail me*/
@@ -367,7 +370,7 @@ html {
 
 
 .hero-banner-contact {
-  height: 500px;
+  min-height: 500px;
   background-color: #b4c6f0;
   .h2 {
     font-size: 28px;
@@ -413,6 +416,7 @@ input, textarea {
   border-radius: 4px;
   cursor: pointer;
   margin-left: 40%;
+  margin-bottom: 20px;
 }
 
 .btn:hover {
